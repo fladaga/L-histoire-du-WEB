@@ -1,0 +1,114 @@
+main {
+  display : flex;		/* tous les éléments immédiatement inclus dans main sont impactés*/
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content : center;
+  align-items: center;
+}
+main div {
+  min-width : 120px; 	/* on attribue une largeur et une hauteur minimum à tous les div contenus dans main */
+  min-height : 120px;
+}
+.slider {
+  width:1200px;
+  background-color : black;
+  opacity: 80%;
+  border-radius: 50px;
+}
+.contenu{
+  width:45%;
+  background-color :white ;
+  margin: 20px ;
+  opacity: 80%;
+  border-radius: 50px;
+}
+.icones {
+  width:100%;
+  background-color :white ;
+  margin: 20px ;
+  opacity: 80%;
+  border-radius: 50px; 
+}
+.langweb {
+  width:50%;
+  background-color :white ;
+  margin: 20px ;
+  opacity: 80%;
+  border-radius: 50px; 
+}
+
+body { background:url(https://repartiesintimes.files.wordpress.com/2014/02/deep-web-une-642x340.jpg);}
+
+h1 {
+  position: relative;
+  font-family: 'Exo';
+  font-size: 9em;
+  margin: 0;
+  transform: skew(-15deg);
+  letter-spacing: 0.03em;
+  color:green;
+  
+  }
+  
+h2{
+  color:green;
+  font-family: arial;
+  font-size:large;
+  }
+h3{
+    color:green;
+    font-family:arial;
+    font-size:large;
+  }
+h5{
+  color:green;
+  font-family: arial;
+  font-size:smaller;
+  }
+  
+.bouton{
+background-color:#444;
+border: none;
+color: green;
+padding:15px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+marging: 20px ;
+border-radius: 1rem;
+position: relative  ;
+align-items: center;
+top: 35px;
+font-family: arial;
+}
+
+.bouton2{
+background-color:#444;
+border: none;
+color: green;
+padding:15px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+marging: 20px ;
+border-radius: 1rem;
+align-items: center;
+top: 35px;
+font-family: arial;
+}
+
+.bouton3{
+background-color:#444;
+border: none;
+color: green;
+padding:15px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+marging: 20px ;
+border-radius: 1rem;
+position: relative  ;
+align-items: center;
+top: 35px;
+font-family: arial;
+}
